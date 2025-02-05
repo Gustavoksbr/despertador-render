@@ -8,4 +8,4 @@ jobs:
     steps:
       - name: Ping API
         run: |
-          curl -X GET "https://roommaker.onrender.com"
+          curl -X GET "https://roommaker.onrender.com/testes/ping"
